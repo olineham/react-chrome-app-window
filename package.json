@@ -1,6 +1,6 @@
 {
   "name": "react-chrome-app-window",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A React component wrapping chrome.app.window.create allowing your React-based Chrome App to span windows",
   "main": "dist/ChromeAppWindow.js",
   "scripts": {
