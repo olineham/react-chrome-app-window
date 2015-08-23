@@ -1,0 +1,40 @@
+{
+  "name": "react-chrome-app-window",
+  "version": "0.0.1",
+  "description": "A React component wrapping chrome.app.window.create allowing your React-based Chrome App to span windows",
+  "main": "dist/react-chrome-app-window.js",
+  "scripts": {
+    "clean": "rimraf dist && mkdir dist",
+    "build": "npm run clean && npm run build:js",
+    "build:js": "babel lib --out-dir dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/olineham/react-chrome-app-window.git"
+  },
+  "keywords": [
+    "react",
+    "react-component",
+    "chrome",
+    "window",
+    "popup",
+    "browser"
+  ],
+  "author": "Oliver Lineham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/olineham/react-chrome-app-window/issues"
+  },
+  "homepage": "https://github.com/olineham/react-chrome-app-window#readme",
+  "peerDependencies": {
+    "react": "^0.13.3"
+  },
+  "devDependencies": {
+    "babel": "^5.8.21",
+    "rimraf": "^2.4.2"
+  },
+  "babel": {
+    "comments": false,
+    "compact": true
+  }
+}
